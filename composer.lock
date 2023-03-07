@@ -4,8 +4,65 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fe6f73eee10f1ef448fca74004132f2",
+    "content-hash": "b60493f2c46501324cf1d1d8cb0a6cd5",
     "packages": [
+        {
+            "name": "liloo/libraries",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Liloocloud/libraries.git",
+                "reference": "aa94a9a464a89753e83d2b54aedce8f0022e92fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Liloocloud/libraries/zipball/aa94a9a464a89753e83d2b54aedce8f0022e92fa",
+                "reference": "aa94a9a464a89753e83d2b54aedce8f0022e92fa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "phpmailer/phpmailer": "^6",
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Liloo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Felipe Oliveira Lourenço",
+                    "email": "felipe.game.studio@gmail.com",
+                    "homepage": "https://liloo.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes auxiliares da Liloo Framework PHP",
+            "homepage": "https://github.com/Liloocloud/libraries",
+            "keywords": [
+                "api",
+                "database",
+                "email",
+                "frame",
+                "framework",
+                "generic",
+                "helpers",
+                "libraries",
+                "liloo",
+                "request"
+            ],
+            "support": {
+                "issues": "https://github.com/Liloocloud/libraries/issues",
+                "source": "https://github.com/Liloocloud/libraries/tree/v1.2.1"
+            },
+            "time": "2023-03-07T15:06:15+00:00"
+        },
         {
             "name": "monolog/monolog",
             "version": "2.9.1",
