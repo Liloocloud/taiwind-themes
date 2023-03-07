@@ -4,5 +4,6 @@ _Kernel/
 
 themes/*/assets/uikit/*
 
+cache/
 uploads/
 # !uploads/favicon.png
