@@ -1,6 +1,8 @@
 Libs/
-uploads/
 Liloo/
 _Kernel/
 
-themes/taiwind/assets/uikit/*
+themes/*/assets/uikit/*
+
+uploads/
+# !uploads/favicon.png
